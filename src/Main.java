@@ -34,7 +34,7 @@ public class Main {
         }
     }
 
-    // 將稅率進位至 0.05 倍數的方法
+    // 將稅額進位至 0.05 倍數的方法
     private static double roundUpToNearestFiveCents(double value) {
         // 將值轉換為 BigDecimal
         BigDecimal bigDecimalValue = new BigDecimal(value);
